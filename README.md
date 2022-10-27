@@ -11,4 +11,5 @@ npm i colour
 ```bash
 node index.js
 ```
-
+## Deploy in Replit
+[Click Here for open in replit](https://replit.com/@frostyle/Discord-Token-Checker?v=1)
