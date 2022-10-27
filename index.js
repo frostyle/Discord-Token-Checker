@@ -13,7 +13,7 @@ axios.get('https://discordapp.com/api/v7/users/@me', {
     const json = body.data
 
     if (!json.id) {
-        console.log('Invalid Account!\n'.red)
+        console.log('Invalid Token!\n'.red)
     } else if (!json.verified) {
         console.log('Account with unverified email!\n'.green)
 
@@ -44,5 +44,5 @@ axios.get('https://discordapp.com/api/v7/users/@me', {
         console.log(`Bio: `.blue + json.bio .cyan +'\n')
     }
 }).catch(function (error) {
-    console.log('Invalid Account!\n'.red)
+    console.log('Invalid Token!\n'.red)
   })
