@@ -1,4 +1,4 @@
-# How The Use
+## How The Use
 + install dependencies
 ```bash
 npm i axios
